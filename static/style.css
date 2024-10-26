@@ -1,0 +1,33 @@
+body {
+    padding: 0;
+    margin: 0;
+    margin-top: 20em;
+}
+
+canvas {
+background: #eee;
+display: block;
+margin: 0 auto;
+margin-top: 4em;
+}
+
+/* 
+https://www.w3schools.com/cssref/tryit.php?filename=trycss3_pointer-events
+*/
+#cheat {
+    opacity: 0;
+    pointer-events: none; 
+    transition: opacity 0.5s ease; 
+}
+
+li {
+    height: auto; 
+    overflow: hidden; 
+}
+
+li:hover #cheat {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+
